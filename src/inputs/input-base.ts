@@ -211,7 +211,7 @@ export class InputBase implements OnInit, OnChanges, DoCheck,
     }
 
     protected isEmpty(value: any): boolean {
-        return value == null || value === "";
+        return value == null || value === "" || typeof(value) == "string" && value.replace(/ /g, '') === "";
     }
 
     protected canTestRegex(config: any): config is InputRegexTestable {
