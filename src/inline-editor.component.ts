@@ -1,7 +1,7 @@
 import {
     Component, forwardRef, Input, OnInit, Output,
     EventEmitter, ViewChild,
-    ComponentRef, ComponentFactoryResolver, ViewContainerRef, ReflectiveInjector, OnDestroy, AfterContentInit, ChangeDetectionStrategy,
+    ComponentRef, ComponentFactoryResolver, ViewContainerRef, ReflectiveInjector, OnDestroy, AfterContentInit,
 } from "@angular/core";
 import { NG_VALUE_ACCESSOR, ControlValueAccessor, NG_VALIDATORS, Validator } from "@angular/forms";
 
@@ -90,7 +90,6 @@ const defaultConfig: InlineConfig = {
         InputDatetimeComponent,
         InputCheckboxComponent,
     ],
-    changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class InlineEditorComponent
     implements OnInit, AfterContentInit, OnDestroy, ControlValueAccessor, Validator {
