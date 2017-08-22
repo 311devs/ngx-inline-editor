@@ -1,6 +1,6 @@
 {
-  "name": "@qontu/ngx-inline-editor",
-  "version": "0.2.0-alpha.10",
+  "name": "@311devs/ngx-inline-editor",
+  "version": "0.2.0-alpha.11",
   "author": {
     "name": "Carlos Caballero",
     "email": "caballerog.carlos@gmail.com"
@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qontu/ngx-inline-editor"
+    "url": "https://github.com/311devs/ngx-inline-editor"
   },
   "bugs": {
-    "url": "https://github.com/qontu/ngx-inline-editor/issues"
+    "url": "https://github.com/311devs/ngx-inline-editor/issues"
   },
   "keywords": [
     "angular",
